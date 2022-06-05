@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,24 +28,28 @@
   </head>
   <body>
     <section class="advice-container">
-      <h3 class="advice-heading">ADVICE #<span id="advice-id">138</span></h3>
+      <h3 role="heading" class="advice-heading">
+        ADVICE #<span id="advice-id">138</span>
+      </h3>
 
-      <p class="advice-body">"Keep it Simple"</p>
+      <p role="doc-tip" class="advice-body">"Keep it Simple"</p>
 
-      <div class="line-divider">
+      <div class="line-divider" role="separator">
         <img
           src="./images/pattern-divider-desktop.svg"
           alt="divider"
           class="visible-desktop"
+          role="separator"
         />
         <img
           src="./images/pattern-divider-mobile.svg"
           alt="divider"
           class="visible-mobile"
+          role="separator"
         />
       </div>
 
-      <button class="get-advice">
+      <button role="button" class="get-advice">
         <img src="./images/icon-dice.svg" alt="dice" width="28" height="28" />
       </button>
     </section>
